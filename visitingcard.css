@@ -1,0 +1,16 @@
+.outlayer{
+    box-sizing: border-box;
+    margin: 2% auto;
+    width: 400px;
+    height: 220px;
+    padding: 30px 30px;  
+    border: 2px solid black;
+}
+td{
+    padding-left: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
