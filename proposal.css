@@ -1,0 +1,86 @@
+body {
+    /* size: 7in 9.25in; */
+    margin: 10mm 40mm 10mm 40mm;
+ }
+
+.box{
+    width: 200px;
+    padding: 10px;
+    border: 1.5px solid rgb(127, 127, 127);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+/* Table */
+table, td {
+    width: 1000px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.secondtable{
+    width: initial;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+}
+
+.column1 {
+    float: left;
+    width: 85%;
+    
+}
+
+.column2 {
+    float: right;
+    width: 15%;
+    margin-bottom: 55px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-container{
+    display: flex;
+}
+
+.left-grid{
+    float: left;
+    width: 30%;
+}
+
+.right-grid{
+    float: right;
+    width: 70%;
+}
+
+.grid-container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+}

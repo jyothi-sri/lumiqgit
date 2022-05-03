@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(99, 153, 99);
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: 2% auto;
+    background-color: skyblue;
+    box-shadow: lightslategray 2px 2px;
+    
+}
+.display-box {
+    background-color: lightgoldenrodyellow;
+    box-shadow: lightslategray 2px 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+.button {
+    background-color: #dcdbe1;
+    box-shadow: lightslategray 2px 2px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    
+}
+
+.keys{
+    background-color: yellow;
+}
+ 
